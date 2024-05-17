@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        padding: 20px;
+    }
+    form {
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        margin: auto;
+    }
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    input[type="text"],
+    select,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+	
+</style>
+</head>
+<body>
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00Dak000005owih" method="POST">
+
+<input type="hidden" name="oid" value="00Dak000005owih">
+<input type="hidden" name="retURL" value="http://www.energy.gov/">
+
+<a href="https://www.energy.gov/">
+	<img src="https://www.energy.gov/sites/default/files/styles/listing_large/public/2021-08/Department-of-Energy-e1519899774703-300x174.png" alt="Form Image">
+</a>
+
+<label for="salutation">Salutation</label>
+<select id="salutation" name="salutation">
+    <option value="">--None--</option>
+    <option value="Mr.">Mr.</option>
+    <option value="Ms.">Ms.</option>
+    <option value="Mrs.">Mrs.</option>
+    <option value="Dr.">Dr.</option>
+    <option value="Prof.">Prof.</option>
+    <option value="Mx.">Mx.</option>
+</select>
+
+<label for="first_name">First Name</label>
+<input id="first_name" maxlength="40" name="first_name" size="20" type="text" />
+
+<label for="last_name">Last Name</label>
+<input id="last_name" maxlength="80" name="last_name" size="20" type="text" />
+
+<label for="company">Company</label>
+<input id="company" maxlength="40" name="company" size="20" type="text" />
+
+<label for="title">Title</label>
+<input id="title" maxlength="40" name="title" size="20" type="text" />
+
+<label for="email">Email</label>
+<input id="email" maxlength="80" name="email" size="20" type="text" />
+
+<label for="phone">Phone</label>
+<input id="phone" maxlength="40" name="phone" size="20" type="text" />
+
+<label for="00Nak0000029UYo">Type of Work - Category</label>
+<select id="00Nak0000029UYo" name="00Nak0000029UYo" title="Type of Work - Category">
+    <option value="">--None--</option>
+    <option value="Advanced Materials and Manufacturing Technologies">Advanced Materials and Manufacturing Technologies</option>
+    <option value="Bioenergy Technologies">Bioenergy Technologies</option>
+    <option value="Buildings">Buildings</option>
+    <option value="Geothermal Technologies">Geothermal Technologies</option>
+    <option value="Hydrogen and Fuel Cell Technologies">Hydrogen and Fuel Cell Technologies</option>
+    <option value="Industrial Efficiency and Decarbonization">Industrial Efficiency and Decarbonization</option>
+    <option value="Solar Energy Technologies">Solar Energy Technologies</option>
+    <option value="Water Power Technologies">Water Power Technologies</option>
+    <option value="Wind Energy Technologies">Wind Energy Technologies</option>
+    <option value="Vehicle Technologies">Vehicle Technologies</option>
+</select>
+
+<label for="00Nak000002Ev5J">NAICS Code Text</label>
+<input id="00Nak000002Ev5J" maxlength="6" name="00Nak000002Ev5J" size="20" type="text" />
+
+<label for="00Nak0000029VZh">Region Location</label>
+<select id="00Nak0000029VZh" name="00Nak0000029VZh" title="Region Location">
+    <option value="">--None--</option>
+    <option value="Midwest">Midwest</option>
+    <option value="Northeast">Northeast</option>
+    <option value="Southeast">Southeast</option>
+    <option value="Southwest">Southwest</option>
+    <option value="West">West</option>
+</select>
+
+<label for="00Nak000002CZyX">Funds Needed for Business</label>
+<input id="00Nak000002CZyX" name="00Nak000002CZyX" size="20" type="text" />
+
+<label for="revenue">Business's Annual Revenue</label>
+<input id="revenue" name="revenue" size="20" type="text" />
+
+<label for="employees">Employees</label>
+<input id="employees" name="employees" size="20" type="text" value="" />
+
+<label for="description">Description</label>
+<textarea name="description"></textarea>
+
+<input type="submit" name="submit">
+
+</form>
+
+</body>
+</html>
